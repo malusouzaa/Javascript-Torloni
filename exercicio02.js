@@ -1,17 +1,12 @@
-let numero = parseInt(prompt("Digite um número de 1 a 7:"));
+// 2. Imprimir números pares de 1 a 10.
 
-let dias = [
-    "Segunda-feira",
-    "Terça-feira",
-    "Quarta-feira",
-    "Quinta-feira",
-    "Sexta-feira",
-    "Sábado",
-    "Domingo"
-];
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+        // par
+        console.log(i);
+    }
+}
 
-if (numero >= 1 && numero <= 7) {
-    alert(dias[numero - 1]);
-} else {
-    alert("Número inválido! Digite um número de 1 a 7.");
+for (let i = 2; i <= 10; i = i + 2) {
+    console.log(i);
 }

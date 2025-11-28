@@ -20,4 +20,4 @@ if (imc < 18.5) {
 }
     
 
- alert("Seu IMC é: " + imc.toFixed(2) + "\nClassificação: " + classificação);
+ alert("Obesidade grau 3. Se cuide por favor sua vida esta em risco")
